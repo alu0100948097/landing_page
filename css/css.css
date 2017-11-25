@@ -1,0 +1,67 @@
+body 
+{ 
+    text-align:center;
+    margin:0 auto;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    color: white; 
+    background-image: url(../img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #0f6983;
+} 
+
+form 
+{
+    margin:0 auto;
+    width: 400px;
+}
+
+form div + div 
+{
+    margin-top: 10px;
+}
+
+h1
+{
+    color: #FFFFFF; 
+}
+
+h4
+{
+    color: #FFFFFF; 
+}
+
+#correo
+{
+    display: inline-block;
+    padding-left: 6;
+}
+
+#opciones
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#logo
+{
+    display: inline-flex;
+    height: 60px;
+    
+}
+
+#logo_img
+{
+    width: 80px;
+    padding-top: 15;
+}
+
+#dc
+{
+    padding-top: 17;
+}
+
+

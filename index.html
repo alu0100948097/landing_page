@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta name="keywords" content="geek, regalo, envio, gratis, envio gratis, suscripcion">
+        <title>Geek Surprise Box</title>
+        <link rel="stylesheet" type="text/css" href="css/css.css" media="all">
+    </head>
+    <body>
+        <div id="logo">
+            <div id="logo_img">
+                <img src="img/Logo.png" width=50 height=50>
+            </div>
+            <div id="logo_text">
+                <h1>Geek Surprise Box</h1>
+            </div>
+            <img src="img/enviogratis.png">
+        </div>
+        <h4>Productos geek aleatorios y sorprendentes cada mes</h4>
+        <form action="pagina2.html" method="get" onsubmit="return check(nombre, correo)">
+            
+            <div>
+            <label for="nombre">Nombre*:</label>
+            <input type="text" placeholder="Escriba su nombre completo" id="nombre" name="nombre"/>
+            </div>
+            
+            <div id="correo">
+            <label for="correo">E-mail*:</label>
+            <input type="email" placeholder="Escriba su correo electronico" id="correo" name="correo"/>
+            </div>
+            
+            <div>
+            <label for="franja">¿Cuando desea recibir su Geek Surprise Box?*:</label>
+            </div>
+            <div>
+            <div id="opciones">
+            <label><input type="radio" name="franja" value="principio" checked >Principios de mes</label>
+            <label><input type="radio" name ="franja" value="finales">Finales de mes</label>
+            </div>
+            </div>
+            
+            <div>
+            <label for="observaciones">Observaciones (Opcional):</label>
+            </div>
+            <div>
+            <textarea id="observaciones" rows="5" cols="30" placeholder="Introduzca en ese campo de texto las observaciones en relacion a su suscripcion al servicio" name="observaciones"></textarea>
+            </div>
+            
+            <div>
+            <input type="submit" value="Enviar">
+            </div>
+            
+        </form>
+        <div id="dc">
+            <img src="img/DC.png">
+        </div>
+        <img src="img/Marvel.png">
+    <script type="text/javascript" src="js/funciones.js"></script>
+    </body>
+</html>
